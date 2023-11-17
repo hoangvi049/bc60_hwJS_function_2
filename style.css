@@ -1,0 +1,19 @@
+.main{
+    background-image: url("./img//abstract-watercolor-style-vector-layouts_1034-2027.avif");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 10rem;
+}
+
+.result{
+    
+    width: 100%;
+    height: 3rem;
+    background-color: #D1E7DD;
+    padding: .5rem;
+    border-radius: 34px 34px;
+    font-size: 18px;
+}

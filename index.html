@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập về function</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container main">
+
+        <div class=" main_input pt-5 pb-3 m-5">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-8">
+                        <input type="number" name="" id="input" class="form-control" placeholder="Nhập số n"
+                            aria-describedby="helpId">
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary  " id="result">Thêm số</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main_show m-5">
+            <div class="col-md-10">
+                <p class="result"><span><i class="fa-solid fa-hand-point-right mx-2"></i></span><span class="r"></span>
+                </p>
+            </div>
+        </div>
+
+        <div class="main_content m-5">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" data-toggle="collapse" href="#bai1">
+                        <a class="card-link">
+                            Tổng số dương
+                        </a>
+                    </div>
+                    <div id="bai1" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <button class="btn btn-primary  " id="result1">Tính tổng </button>
+                            <div class="col-md-6 pt-2">
+                                <p class="result"><span><i class="fa-solid fa-hand-point-right mx-2"></i></span><span
+                                        class="r1"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" data-toggle="collapse" href="#bai2">
+                        <a class="card-link">
+                            Đếm số dương
+                        </a>
+                    </div>
+                    <div id="bai2" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <button class="btn btn-primary  " id="result2">Đếm số</button>
+                            <div class="col-md-6 pt-2">
+                                <p class="result"><span><i class="fa-solid fa-hand-point-right mx-2"></i></span><span
+                                        class="r2"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="card-header" data-toggle="collapse" href="#bai3">
+                        <a class="card-link">
+                            Tìm số nhỏ nhất
+                        </a>
+                    </div>
+                    <div id="bai3" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <button class="btn btn-primary  " id="result3">Tìm số nhỏ nhất</button>
+                            <div class="col-md-6 pt-2">
+                                <p class="result"><span><i class="fa-solid fa-hand-point-right mx-2"></i></span><span
+                                        class="r3"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="card">
+                    <div class="card-header" data-toggle="collapse" href="#bai4">
+                        <a class="card-link">
+                            Tìm số dương nhỏ nhất
+                        </a>
+                    </div>
+                    <div id="bai4" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <button class="btn btn-primary  " id="result4">Tìm số dương nhỏ nhất</button>
+                            <div class="col-md-6 pt-2">
+                                <p class="result"><span><i class="fa-solid fa-hand-point-right mx-2"></i></span><span
+                                        class="r4"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="card">
+                    <div class="card-header" data-toggle="collapse" href="#bai5">
+                        <a class="card-link">
+                            Tìm số chẵn cuối cùng
+                        </a>
+                    </div>
+                    <div id="bai5" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <button class="btn btn-primary  " id="result5">Tìm số chẵn cuối cùng</button>
+                            <div class="col-md-6 pt-2">
+                                <p class="result"><span><i class="fa-solid fa-hand-point-right mx-2"></i></span><span
+                                        class="r5"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="card">
+                    <div class="card-header" data-toggle="collapse" href="#bai6">
+                        <a class="card-link">
+                            Đổi chỗ
+                        </a>
+                    </div>
+                    <div id="bai6" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row pb-3">
+                                <div class="col-lg-4">
+                                    <input type="number" name="" id="input6_1" class="form-control"
+                                        placeholder="Nhập số vị trí 1" aria-describedby="helpId">
+                                </div>
+                                <div class="col-lg-4">
+                                    <input type="number" name="" id="input6_2" class="form-control"
+                                        placeholder="Nhập số vị trí 2" aria-describedby="helpId">
+                                </div>
+                            </div>
+                            <button class="btn btn-primary  " id="result6">Đổi vị trí</button>
+                            <div class="col-md-6 pt-2">
+                                <p class="result"><span><i class="fa-solid fa-hand-point-right mx-2"></i></span><span
+                                        class="r6"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" href="#bai7">
+                            <a class="card-link">
+                                Sắp xếp tăng dần
+                            </a>
+                        </div>
+                        <div id="bai7" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <button class="btn btn-primary  " id="result7">Sắp xếp</button>
+                                <div class="col-md-6 pt-2">
+                                    <p class="result"><span><i
+                                                class="fa-solid fa-hand-point-right mx-2"></i></span><span
+                                            class="r7"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" href="#bai8">
+                            <a class="card-link">
+                                Tìm số nguyên tố đầu tiên
+                            </a>
+                        </div>
+                        <div id="bai8" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <button class="btn btn-primary  " id="result8">Số nguyên tố đầu tiên</button>
+                                <div class="col-md-6 pt-2">
+                                    <p class="result"><span><i
+                                                class="fa-solid fa-hand-point-right mx-2"></i></span><span
+                                            class="r8"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" data-toggle="collapse" href="#bai9">
+                            <a class="card-link">
+                                Đếm số nguyên
+                            </a>
+                        </div>
+                        <div id="bai9" class="collapse" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <input type="number" name="" id="input9" class="form-control"
+                                            placeholder="Nhập số n" aria-describedby="helpId">
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="btn btn-primary  " id="result9_1">Thêm số</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-10 pt-3">
+                                    <p class="result"><span><i
+                                                class="fa-solid fa-hand-point-right mx-2"></i></span><span
+                                            class="r9_1"></span>
+                                    </p>
+                                </div>
+                                <button class="btn btn-primary  " id="result9_2">Đếm số nguyên</button>
+                                <div class="col-md-6 pt-2">
+                                    <p class="result"><span><i
+                                                class="fa-solid fa-hand-point-right mx-2"></i></span><span
+                                            class="r9_2"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
