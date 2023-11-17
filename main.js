@@ -173,3 +173,17 @@ document.getElementById("result9_2").onclick = function () {
 
   document.querySelector(".r9_2").innerHTML = "Số lượng số nguyên tố: " + n;
 };
+
+document.getElementById("result10").onclick = function () {
+  var arrPos = findPositive(arrNum);
+
+  if (arrNum.length - arrPos.length > arrPos.length) {
+    document.querySelector(".r10").innerHTML =
+      "Số lượng số âm nhiều hơn số lượng số dương";
+  } else if (arrNum.length - arrPos.length < arrPos.length) {
+    document.querySelector(".r10").innerHTML =
+      "Số lượng số dương nhiều hơn số lượng số âm";
+  } else {
+    document.querySelector(".r10").innerHTML = "Số lượng cả hai bằng nhau";
+  }
+};
